@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal - Resident Evil Fan</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: red;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resident Evil Fan</h1>
+        <nav>
+            <a href="#about">Sobre Mim</a>
+            <a href="#videos">Gameplays</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Bem-vindo à minha página pessoal dedicada ao mundo de Resident Evil. Sou um grande fã da franquia e estou aqui para compartilhar minha paixão com vocês. Abaixo, você encontrará gameplays, informações sobre os personagens e muito mais. Sinta-se à vontade para explorar e interagir comigo.</p>
+    </section>
+
+    <section id="videos">
+        <h2>Gameplays</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/seucanal" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="characters">
+        <h2>Personagens Favoritos</h2>
+        <p>Confira algumas imagens dos personagens principais de Resident Evil que você mencionou:</p>
+        <img src="leon.jpg" alt="Leon">
+        <img src="ada.jpg" alt="Ada">
+        <img src="jill.jpg" alt="Jill">
+        <img src="chris.jpg" alt="Cris">
+        <img src="ethan.jpg" alt="Ethan">
+        <img src="wesker.jpg" alt="Wesker">
+        <img src="ashley.jpg" alt="Ashley">
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo através do meu canal do YouTube ou seguir-me nas redes sociais para obter as últimas atualizações e interagir com a comunidade de fãs de Resident Evil.</p>
+    </section>
+</body>
+</html>
